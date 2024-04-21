@@ -1,5 +1,3 @@
-# game.py
-
 from gameparts import Board
 
 # Вот новая функция.
