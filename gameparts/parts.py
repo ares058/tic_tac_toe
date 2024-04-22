@@ -15,7 +15,7 @@ class Board:
         for row in self.board:
             print('|'.join(row))
             print('-' * 5)
-            
+
     # Этот метод определяет ничью.
 
     def is_board_full(self):
@@ -31,7 +31,7 @@ class Board:
         return True
 
     # Этот метод будет определять победу.
-    
+
     def check_win(self, player):
         # Тут реализована проверка по вертикали и горизонтали.
         for i in range(3):
