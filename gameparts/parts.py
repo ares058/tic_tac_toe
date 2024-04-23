@@ -10,11 +10,12 @@ class Board:
 
     def make_move(self, row, col, player):
         self.board[row][col] = player
-
-    def display(self):
-        for row in self.board:
-            print('|'.join(row))
-            print('-' * 5)
+    # Закомиченый метод так как его заменяет draw_figures().
+    
+    # def display(self):
+        # for row in self.board:
+            # print('|'.join(row))
+            # print('-' * 5)
 
     # Этот метод определяет ничью.
 
